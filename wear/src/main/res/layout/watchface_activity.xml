@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyActivity"
+    tools:deviceIds="wear_square">
+
+
+    <AnalogClock
+        android:id="@+id/analogClock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dial="@drawable/watch_carbonback"
+        android:hand_hour="@drawable/hour_hand"
+        android:hand_minute="@drawable/minute_hand"/>
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="date text"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="140dp" />
+</RelativeLayout>
