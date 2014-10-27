@@ -94,7 +94,7 @@ public class sleep_activity {
                 return;
             }
             switch (display.getState()) {
-                case Display.STATE_DOZE:
+                case Display.STATE_DOZING:
                     listener.onScreenDim();
                     break;
                 case Display.STATE_OFF:
